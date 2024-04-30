@@ -1,0 +1,615 @@
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/nixos.org) (preloaded format=xelatex 1980.1.1)  30 APR 2024 14:07
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**1.tex example.tex
+(./1.tex
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-02-20>
+! You can't use `\spacefactor' in vertical mode.
+\@->\spacefactor 
+                 \@m {}
+l.2 \@
+      setckpt{../../pagestyle/测试报告专用}{
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.2 \@
+      setckpt{../../pagestyle/测试报告专用}{
+? 
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2 \@
+      setckpt{../../pagestyle/测试报告专用}{
+? 
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 2.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 2.
+
+! LaTeX Error: No counter 'part' defined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.11 \setcounter{part}{0}
+                         
+? 
+
+! LaTeX Error: No counter 'section' defined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.12 \setcounter{section}{0}
+                            
+? 
+
+! LaTeX Error: No counter 'subsection' defined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.13 \setcounter{subsection}{0}
+                               
+? 
+
+! LaTeX Error: No counter 'subsubsection' defined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.14 \setcounter{subsubsection}{0}
+                                  
+? 
+
+! LaTeX Error: No counter 'paragraph' defined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.15 \setcounter{paragraph}{0}
+                              
+? 
+
+! LaTeX Error: No counter 'subparagraph' defined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16 \setcounter{subparagraph}{0}
+                                 
+? 
+
+! LaTeX Error: No counter 'figure' defined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 \setcounter{figure}{0}
+                           
+? 
+
+! LaTeX Error: No counter 'table' defined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 \setcounter{table}{0}
+                          
+? 
+
+! LaTeX Error: No counter 'caption@flags' defined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 \setcounter{caption@flags}{0}
+                                  
+? 
+
+! LaTeX Error: No counter 'continuedfloat' defined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 \setcounter{continuedfloat}{0}
+                                   
+? 
+
+! LaTeX Error: No counter 'lstnumber' defined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.21 \setcounter{lstnumber}{1}
+                              
+? 
+
+! LaTeX Error: No counter 'tcbbreakpart' defined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.22 \setcounter{tcbbreakpart}{0}
+                                 
+? 
+
+! LaTeX Error: No counter 'tcblayer' defined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 \setcounter{tcblayer}{0}
+                             
+? 
+
+! LaTeX Error: No counter 'tcolorbox@number' defined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.24 \setcounter{tcolorbox@number}{0}
+                                     
+? 
+
+! LaTeX Error: No counter 'tcbrastercolumn' defined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.25 \setcounter{tcbrastercolumn}{1}
+                                    
+? 
+
+! LaTeX Error: No counter 'tcbrasterrow' defined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.26 \setcounter{tcbrasterrow}{1}
+                                 
+? 
+
+! LaTeX Error: No counter 'tcbrasternum' defined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.27 \setcounter{tcbrasternum}{1}
+                                 
+? 
+
+! LaTeX Error: No counter 'tcbraster' defined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.28 \setcounter{tcbraster}{0}
+                              
+? 
+
+! LaTeX Error: No counter 'parentequation' defined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.29 \setcounter{parentequation}{0}
+                                   
+? 
+
+! LaTeX Error: No counter 'tcblisting' defined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.30 \setcounter{tcblisting}{0}
+                               
+? 
+
+! LaTeX Error: No counter 'lstlisting' defined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.31 \setcounter{lstlisting}{0}
+                               
+? 
+)
+*
+! Missing $ inserted.
+<inserted text> 
+                $
+<*> 
+    
+? 
+Missing character: There is no è ("E8) in font cmex10!
+Missing character: There is no 测 ("6D4B) in font cmr10!
+Missing character: There is no 试 ("8BD5) in font cmr10!
+Missing character: There is no 报 ("62A5) in font cmr10!
+Missing character: There is no 告 ("544A) in font cmr10!
+Missing character: There is no 专 ("4E13) in font cmr10!
+Missing character: There is no 用 ("7528) in font cmr10!
+
+Overfull \hbox (173.12184pt too wide) in paragraph at lines 2--0
+[]$[]\OML/cmm/m/it/10 setckpt[][]example:tex$ 
+ []
+
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*^^[[A^^[[A^^[[A^^[[A^^[[A^^[[A^^[[A^^[[A^^[[A^^[[A^^[[A^^[[A^^[[B
+! Text line contains an invalid character.
+<*> ^^[
+       [A^^[[A^^[[A^^[[A^^[[A^^[[A^^[[A^^[[A^^[[A^^[[A^^[[A^^[[A^^[[B
+? 
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+<*> ^^[[
+        A^^[[A^^[[A^^[[A^^[[A^^[[A^^[[A^^[[A^^[[A^^[[A^^[[A^^[[A^^[[B
+? 
+Missing character: There is no [ ("5B) in font nullfont!
+Missing character: There is no A ("41) in font nullfont!
+! Text line contains an invalid character.
+<*> ^^[[A^^[
+            [A^^[[A^^[[A^^[[A^^[[A^^[[A^^[[A^^[[A^^[[A^^[[A^^[[A^^[[B
+? 
+Missing character: There is no [ ("5B) in font nullfont!
+Missing character: There is no A ("41) in font nullfont!
+! Text line contains an invalid character.
+<*> ^^[[A^^[[A^^[
+                 [A^^[[A^^[[A^^[[A^^[[A^^[[A^^[[A^^[[A^^[[A^^[[A^^[[B
+? 
+Missing character: There is no [ ("5B) in font nullfont!
+Missing character: There is no A ("41) in font nullfont!
+! Text line contains an invalid character.
+<*> ^^[[A^^[[A^^[[A^^[
+                      [A^^[[A^^[[A^^[[A^^[[A^^[[A^^[[A^^[[A^^[[A^^[[B
+? 
+Missing character: There is no [ ("5B) in font nullfont!
+Missing character: There is no A ("41) in font nullfont!
+! Text line contains an invalid character.
+<*> ^^[[A^^[[A^^[[A^^[[A^^[
+                           [A^^[[A^^[[A^^[[A^^[[A^^[[A^^[[A^^[[A^^[[B
+? 
+Missing character: There is no [ ("5B) in font nullfont!
+Missing character: There is no A ("41) in font nullfont!
+! Text line contains an invalid character.
+<*> ^^[[A^^[[A^^[[A^^[[A^^[[A^^[
+                                [A^^[[A^^[[A^^[[A^^[[A^^[[A^^[[A^^[[B
+? 
+Missing character: There is no [ ("5B) in font nullfont!
+Missing character: There is no A ("41) in font nullfont!
+! Text line contains an invalid character.
+<*> ^^[[A^^[[A^^[[A^^[[A^^[[A^^[[A^^[
+                                     [A^^[[A^^[[A^^[[A^^[[A^^[[A^^[[B
+? 
+Missing character: There is no [ ("5B) in font nullfont!
+Missing character: There is no A ("41) in font nullfont!
+! Text line contains an invalid character.
+<*> ^^[[A^^[[A^^[[A^^[[A^^[[A^^[[A^^[[A^^[
+                                          [A^^[[A^^[[A^^[[A^^[[A^^[[B
+? 
+Missing character: There is no [ ("5B) in font nullfont!
+Missing character: There is no A ("41) in font nullfont!
+! Text line contains an invalid character.
+<*> ^^[[A^^[[A^^[[A^^[[A^^[[A^^[[A^^[[A^^[[A^^[
+                                               [A^^[[A^^[[A^^[[A^^[[B
+? 
+Missing character: There is no [ ("5B) in font nullfont!
+Missing character: There is no A ("41) in font nullfont!
+! Text line contains an invalid character.
+<*> ...^^[[A^^[[A^^[[A^^[[A^^[[A^^[[A^^[[A^^[[A^^[
+                                                  [A^^[[A^^[[A^^[[B
+? 
+Missing character: There is no [ ("5B) in font nullfont!
+Missing character: There is no A ("41) in font nullfont!
+! Text line contains an invalid character.
+<*> ...^^[[A^^[[A^^[[A^^[[A^^[[A^^[[A^^[[A^^[[A^^[
+                                                  [A^^[[A^^[[B
+? 
+Missing character: There is no [ ("5B) in font nullfont!
+Missing character: There is no A ("41) in font nullfont!
+! Text line contains an invalid character.
+<*> ...^^[[A^^[[A^^[[A^^[[A^^[[A^^[[A^^[[A^^[[A^^[
+                                                  [A^^[[B
+? 
+Missing character: There is no [ ("5B) in font nullfont!
+Missing character: There is no A ("41) in font nullfont!
+! Text line contains an invalid character.
+<*> ...^^[[A^^[[A^^[[A^^[[A^^[[A^^[[A^^[[A^^[[A^^[
+                                                  [B
+? 
+Missing character: There is no [ ("5B) in font nullfont!
+Missing character: There is no B ("42) in font nullfont!
+
+*
+
+Overfull \hbox (20.0pt too wide) detected at line 0
+[] 
+ []
+
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*\end
+
+*
+Runaway argument?
+! Paragraph ended before \end  was complete.
+<to be read again> 
+                   \par 
+<*> 
+    
+? 
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*\end
+
+*
+Runaway argument?
+! Paragraph ended before \end  was complete.
+<to be read again> 
+                   \par 
+<*> 
+    
+? 
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+! Interruption.
+<*> 
+    
+? 
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*end
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+<*> e
+     nd
+? 
+Missing character: There is no e ("65) in font nullfont!
+Missing character: There is no n ("6E) in font nullfont!
+Missing character: There is no d ("64) in font nullfont!
+
+*
+
+Overfull \hbox (20.0pt too wide) detected at line 0
+[] 
+ []
+
+(Please type a command or say `\end')
+*\end
+
+*
+Runaway argument?
+! Paragraph ended before \end  was complete.
+<to be read again> 
+                   \par 
+<*> 
+    
+? 
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+! Emergency stop.
+<*> 
+    
+End of file on the terminal!
+
+ 
+Here is how much of TeX's memory you used:
+ 17 strings out of 475980
+ 301 string characters out of 5768027
+ 1917839 words of memory out of 5000000
+ 22218 multiletter control sequences out of 15000+600000
+ 558069 words of font info for 36 fonts, out of 8000000 for 9000
+ 430 hyphenation exceptions out of 8191
+ 19i,2n,20p,87b,57s stack positions out of 10000i,1000n,20000p,200000b,200000s
+No pages of output.
