@@ -1,0 +1,369 @@
+\documentclass{article}
+
+\input{../usepackages/code.tex}
+\input{../vars/实验报告.tex}
+\input{../filestyle/style1.tex}
+
+\newcommand{\myfilename}{黑盒测试-等价类测试法}
+\newcommand{\rust}{/home/kevin/Documents/rust/tesxsthw1/src/main.rs}
+\newcommand{\bash}{/home/kevin/Documents/rust/tesxsthw1/src/test2.sh}
+\newcommand{\lightgreentitle}{rust code}
+\newcommand{\moonstonebluetitle}{bash code}
+\newcommand{\moonstoneblue}{\input{../code/lstlisting.bash.tex}}
+\newcommand{\lightgreen}{\input{../code/lstlisting.rust.tex}}
+
+\newcommand{\blue}{\begin{tabular}{|l|c|c|c|r|}
+%\hline
+%\multicolumn{3}{|c|}{标题} \\ % 合并单元格
+\hline
+  a & b & c & 测试输出 & 预期输出\\
+\hline
+
+  \input{/home/kevin/Documents/rust/tesxsthw1/src/test2.log}
+
+\end{tabular}}
+\newcommand{\bluetitle}{三角形弱健壮测试数据1}
+
+\begin{document}
+
+
+\input{../pagestyle/测试报告专用.tex} % 页眉页脚
+
+\input{../pages/测试实验报告首页.tex} % 首页
+
+\title{实验二:黑盒测试-等价类测试法}
+\author{陈楷文}
+\date{\today}
+
+\maketitle
+
+\section{[实验环境]}
+\begin{itemize}
+    \item 操作系统:Linux
+    \item 程序设计语言:Rust
+    \item 脚本设计语言:Bash
+\end{itemize}
+\section{[实验类型]}
+
+黑盒测试 \\
+等价类测试 \\
+
+\section{[实验目的]}
+\begin{itemize}
+    \item 认识黑盒测试方法中等价类分析测试法原理
+    \item 掌握黑盒测试方法中等价类分析测试法过程
+\end{itemize}
+
+\section{[实验内容]}
+\begin{enumerate}
+    \item 编写三角形程序
+    \item 编写三角形程序测试脚本
+    \item 编写NextDay程序
+    \item 编写NextDay程序测试脚本
+    \item 运行测试
+    \item 分析测试结果
+\end{enumerate}
+
+\section{[问题描述]}
+\subsection{三角形问题}
+
+问题描述：三角形问题接受三个整数，a、b和c作为输入，用作三角形的边。程序的输出是由这三条边确定的三角形类型：等边三角形、等腰三角形、不等边三角形或非三角形。\\
+
+作为输入：三角形的三条边必须满足如下条件：\\
+
+C1：1<=a<=100\\
+
+C2：1<=b<=100\\
+
+C3：1<=c<=100\\
+
+C4：a<b+c\\
+
+C5：b<a+c\\
+
+C6：c<a+b\\
+
+\subsection{NextDay问题}
+
+问题描述：NextDate是一个由三个变量（月份、日期和年份）的函数。函数返回输入日期后边的那个日期。\\
+
+作为输入：变量月份、日期和年都具有整数值，满足以下条件。\\
+
+C1：1<=月份<=12\\
+
+C2：1<=日期<=31\\
+
+C3：1912<=年<=2050\\
+
+\subsection{佣金问题}
+
+问题描述：前亚利桑那洲境内的一位步枪销售商销售密苏里州制造商制造的步枪机（lock）、枪托（stock）和枪管（barrel）。\\
+
+枪机卖45美元，枪托卖30美元，枪管卖25美元。\\
+
+销售商每月至少要售出一支完整的步枪，\\
+
+且生产限额是大多数销售商在一个月内可销售70个枪机、80个枪托和90个枪管。\\
+
+每访问一个镇子后，销售商都给密苏里州步枪制造商发出一份很短的电报，通知几个枪机、枪托、枪管被售出。这样步枪制造商就知道当月的销售情况，并计算销售商的佣金如下：\\
+
+不到（含）1000美元的部分为10\%；\\
+
+1000（不含）~1800（含）美元的部分为15\%；\\
+
+超过1800美元的部分为20\%。\\
+
+佣金程序生成月份销售报告，汇总售出的枪机、枪托和枪管总数，销售商的总销售额以及佣金。\\
+
+
+\section{[算法描述]}
+\subsection{三角形程序}
+use std::env;：导入了env模块，用于处理命令行参数。\\
+fn main() { ... }：程序的入口函数。\\
+let args: Vec<String> = env::args().collect();：将命令行参数收集到一个字符串向量中。\\
+let (a, b, c) = match parse\_arguments(\&args) { ... }：调用parse\_arguments函数解析命令行参数，并将解析结果绑定到变量(a, b, c)中。\\
+fn parse\_arguments(args: \&[String]) -> Result<(u32, u32, u32), String> { ... }：解析命令行参数的函数。它接受一个字符串切片作为参数，返回一个Result枚举，其中Ok包含三个边长，Err包含错误信息。\\
+for i in 1..args.len() { ... }：遍历命令行参数。\\
+match args[i].as\_str() { ... }：匹配当前命令行参数的字符串值。\\
+-a, -b, -c：检查是否遇到了命令行参数-a、-b或-c。\\
+Some(value)：如果解析成功，返回一个包含解析后的值的Some枚举。\\
+Some(args[i + 1].parse().map\_err(|\_| "边长a必须是一个有效的整数")?)?：将下一个参数解析为整数，如果解析失败，则返回一个包含错误信息的Err枚举。\\
+is\_triangle函数：检查三条边是否能构成三角形。\\
+输出结果：根据判断的结果输出对应的信息，例如等边三角形、等腰三角形、不等边三角形或非三角形。\\
+
+\subsection{NextDay程序}
+
+首先，程序使用了std::env模块来获取命令行参数。通过env::args()函数获取参数列表，并将其收集到一个Vec<String>类型的变量args中。\\
+然后，程序定义了main()函数作为程序的入口点。在main()函数中，它遍历命令行参数列表，解析出年份、月份和日期，并存储到相应的变量中。\\
+接下来，程序调用了is\_valid\_date()函数来检查输入的日期是否有效。这个函数会检查年份是否在1912到2050之间，月份是否在1到12之间，日期是否在1到31之间。如果日期无效，程序会打印错误消息并退出。\\
+如果日期有效，程序就会调用next\_date()函数来计算下一个日期。这个函数会根据当前日期的年、月、日来计算下一个日期，并考虑闰年和月底的情况。\\
+最后，程序打印出计算得到的下一个日期。\\
+
+\subsection{佣金程序}
+
+    use std::env;: 这行代码导入了 Rust 标准库中的 env 模块，用于处理命令行参数。\\
+
+    fn main() { ... }: 这是程序的主函数入口。程序从这里开始执行。\\
+
+    命令行参数解析部分：程序首先解析命令行参数，确保输入的格式正确。通过 env::args() 获取命令行参数，然后根据参数的内容进行相应的处理，比如 -a 对应枪机数量，-b 对应枪托数量，-c 对应枪管数量。如果输入的参数格式不正确，则输出相应的错误信息。\\
+
+    输入有效性检查部分：程序检查输入的零件数量是否为零以及是否超过销售限额。如果任一零件数量为零或者超过了限额，则输出相应的错误信息并终止程序执行。\\
+
+    计算总销售额：根据输入的枪机、枪托和枪管数量，计算总销售额。\\
+
+    计算佣金：根据总销售额，按照特定的佣金计算规则，计算销售商的佣金。\\
+
+    输出销售报告：最后，程序输出销售报告，包括总枪机、总枪托和总枪管销量，总销售额以及佣金。\\
+
+\section{[测试案例]}
+\subsection{三角形问题}
+
+划分等价类\\
+
+每个输入分为大于正常值,属于正常值,小于正常值三类\\
+
+并在测试中按不同测试需求排列组合\\
+
+\textbf{\*强弱一般等价测试在弱健壮测试项目第一案例中}
+
+\begin{center}
+\input{../tcolorbox/tcbox.blue.tex}
+\renewcommand{\blue}{\begin{tabular}{|l|c|c|c|r|}
+  %\hline
+  %\multicolumn{3}{|c|}{标题} \\ % 合并单元格
+  \hline
+  y & m & d & 测试输出 & 预期输出\\
+  \hline
+
+  \input{/home/kevin/Documents/rust/tesxsthw1/src/test2_1.log}
+
+\end{tabular}}
+
+\renewcommand{\bluetitle}{三角形强健壮测试数据2}
+
+\input{../tcolorbox/tcbox.blue.tex}
+
+\end{center}
+\subsection{NextDay问题}
+
+M1 = {month: month has 30 days}\\
+
+M2 = {month: month has 31 days except December}\\
+
+M3 = {month: month is December}\\
+
+M4 = {month: month is February}\\
+
+D1 = {day: 1 ≤ day ≤ 27}\\
+
+D2 = {day: day = 28}\\
+
+D3 = {day: day = 29}\\
+
+D4 = {day: day = 30}\\
+
+D5 = {day: day = 31}\\
+
+Y1 = {year: year is a leap year}\\
+
+Y2 = {year: year is a common year}\\
+
+可划分为10个弱一般等价类（除去了无效的等价类），为其设计测试用例如下表格所示\\
+
+R1 = {M1, {D1, D2, D3}, {Y1, Y2}}\\
+
+R2 = {M1, D4, {Y1, Y2}}\\
+
+R3 = {M2, {D1, D2, D3, D4}, {Y1, Y2}}\\
+
+R4 = {M2, D5, {Y1, Y2}}\\
+
+R5 = {M3, {D1, D2, D3, D4}, {Y1, Y2}}\\
+
+R6 = {M3, D5, {Y1, Y2}}\\
+
+R7 = {M4, D1, {Y1, Y2}}\\
+
+R8 = {M4, D2, Y1}\\
+
+R9 = {M4, D2, Y2}\\
+
+R10 = {M4, D3, Y1}\\
+
+\begin{center}
+\renewcommand{\blue}{\begin{tabular}{|l|c|c|c|r|}
+  %\hline
+  %\multicolumn{3}{|c|}{标题} \\ % 合并单元格
+  \hline
+  y & m & d & 测试输出 & 预期输出\\
+  \hline
+
+  \input{/home/kevin/Documents/rust/tesxsthw2/src/test2.log}
+
+\end{tabular}}
+\renewcommand{\bluetitle}{NextDay弱健壮测试数据1}
+
+\input{../tcolorbox/tcbox.blue.tex}
+
+\renewcommand{\blue}{\begin{tabular}{|l|c|c|c|r|}
+  %\hline
+  %\multicolumn{3}{|c|}{标题} \\ % 合并单元格
+  \hline
+  y & m & d & 测试输出 & 预期输出\\
+  \hline
+
+  \input{/home/kevin/Documents/rust/tesxsthw2/src/test2_1.log}
+
+\end{tabular}}
+\renewcommand{\bluetitle}{NextDay强健壮测试数据2}
+
+\input{../tcolorbox/tcbox.blue.tex}
+
+\end{center}
+
+\subsection{佣金问题}
+
+L1={枪机:1≤枪机≤70}\\
+
+S1={枪托:1≤枪托≤80}\\
+
+B1={枪管:1≤枪管≤90)\\
+
+输入变量的无效类:\\
+
+L2={枪机:枪机<1}\\
+
+L3={枪机:枪机>70}\\
+
+S2={枪托:枪托<1}\\
+
+S3={枪托:枪托>80}\\
+
+B2={枪管:枪管<1}\\
+
+B3={枪管:枪管>90}\\
+
+\begin{center}
+\renewcommand{\blue}{\begin{tabular}{|l|c|c|c|r|}
+  %\hline
+  %\multicolumn{3}{|c|}{标题} \\ % 合并单元格
+  \hline
+  y & m & d & 测试输出 & 预期输出\\
+  \hline
+
+  \input{/home/kevin/Documents/rust/tesxsthw3/src/test2_1.log}
+
+\end{tabular}}
+\renewcommand{\bluetitle}{佣金弱健壮测试数据1}
+
+\input{../tcolorbox/tcbox.blue.tex}
+
+\renewcommand{\blue}{\begin{tabular}{|l|c|c|c|r|}
+  %\hline
+  %\multicolumn{3}{|c|}{标题} \\ % 合并单元格
+  \hline
+  y & m & d & 测试输出 & 预期输出\\
+  \hline
+
+  \input{/home/kevin/Documents/rust/tesxsthw3/src/test2_1.log}
+
+\end{tabular}}
+\renewcommand{\bluetitle}{佣金强健壮测试数据2}
+
+\input{../tcolorbox/tcbox.blue.tex}
+
+\end{center}
+
+\section{[测试结果分析]}
+
+测试结果符合预期,基本可以认定程序正确\\
+
+\section{[实验总结]}
+
+在进行了等价类测试法的实验后，我得出了一些结论。首先，等价类测试法是一种有效的黑盒测试方法，能够帮助我们有效地发现软件系统中的错误。通过将输入数据分成等价类，我们可以在每个等价类中选择一个代表性的值来代表整个等价类，从而减少测试用例的数量，节省了时间和资源。\\
+
+其次，实验结果表明，等价类测试法对于简单的输入条件非常适用。当输入条件较为复杂时，可能需要更多的等价类来覆盖所有可能的情况，这会增加测试用例的数量，降低测试效率。因此，在设计等价类时，需要仔细考虑输入条件的复杂程度，以确保测试用例的覆盖率和效率。\\
+
+此外，实验过程中还发现了一些挑战和限制。例如，在某些情况下，难以将输入条件准确地划分为等价类，导致测试用例覆盖不全或者重复。此外，等价类测试法只能检测到输入条件是否符合预期的范围，无法检测到软件系统内部的错误，因此在实际测试中需要结合其他测试方法进行综合测试。\\
+
+总的来说，等价类测试法是一种简单而有效的黑盒测试方法，能够帮助我们发现软件系统中的错误，提高测试效率。然而，在使用等价类测试法时需要注意输入条件的复杂性，以及其在覆盖测试用例方面的局限性，同时结合其他测试方法进行综合测试，以提高测试的全面性和准确性。\\
+\section{[附:程式源码]}
+
+\subsection{三角形程序}
+\input{../tcolorbox/tcolorbox.lightgreen.tex}
+
+\input{../tcolorbox/tcolorbox.moonstoneblue.tex}
+
+\renewcommand{\bash}{/home/kevin/Documents/rust/tesxsthw1/src/test2_1.sh}
+
+\input{../tcolorbox/tcolorbox.moonstoneblue.tex}
+
+\subsection{NextDay程序}
+
+\renewcommand{\rust}{/home/kevin/Documents/rust/tesxsthw2/src/main.rs}
+\renewcommand{\bash}{/home/kevin/Documents/rust/tesxsthw2/src/test2.sh}
+
+\input{../tcolorbox/tcolorbox.lightgreen.tex}
+
+\input{../tcolorbox/tcolorbox.moonstoneblue.tex}
+
+\renewcommand{\bash}{/home/kevin/Documents/rust/tesxsthw2/src/test2_1.sh}
+
+\input{../tcolorbox/tcolorbox.moonstoneblue.tex}
+
+\subsection{佣金程序}
+
+\renewcommand{\rust}{/home/kevin/Documents/rust/tesxsthw3/src/main.rs}
+\renewcommand{\bash}{/home/kevin/Documents/rust/tesxsthw3/src/test2.sh}
+
+\input{../tcolorbox/tcolorbox.lightgreen.tex}
+
+\input{../tcolorbox/tcolorbox.moonstoneblue.tex}
+
+\renewcommand{\bash}{/home/kevin/Documents/rust/tesxsthw3/src/test2_1.sh}
+
+\input{../tcolorbox/tcolorbox.moonstoneblue.tex}
+
+
+\end{document}
+

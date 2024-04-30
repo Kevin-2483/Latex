@@ -1,9 +1,9 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/nixos.org) (preloaded format=xelatex 1980.1.1)  30 APR 2024 17:38
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/nixos.org) (preloaded format=xelatex 1980.1.1)  30 APR 2024 22:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**example.tex
-(./example.tex
+**test1_1.tex
+(./test1_1.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
 
@@ -998,8 +998,8 @@ Package fontspec Info: Font family 'sarasa-term-sc-nerd-regular(0)' created
 atn;language=dflt;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 
-) (./example.aux)
-\openout1 = `example.aux'.
+) (./test1_1.aux)
+\openout1 = `test1_1.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
 LaTeX Font Info:    ... okay on input line 27.
@@ -1151,7 +1151,444 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [1
 
-]) (../tcolorbox/tcolorbox.lightgreen.tex (../code/lstlisting.rust.tex
+])
+Underfull \hbox (badness 10000) in paragraph at lines 48--50
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 70--71
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 72--73
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 74--75
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--77
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 78--79
+
+ []
+
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 80--81
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 82--83
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--85
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--89
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 90--91
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--93
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 94--95
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 96--97
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--101
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 102--103
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 104--105
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 106--107
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 108--109
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 110--111
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 112--113
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 114--115
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 116--117
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 121--133
+
+ []
+
+File: ../img/zjnu.jpg Graphic file (type bmp)
+<../img/zjnu.jpg>
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.5712pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.5712pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.5712pt}.
+
+[3]
+Underfull \hbox (badness 10000) in paragraph at lines 136--141
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 144--145
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 146--147
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 148--149
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 150--151
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 152--153
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 154--155
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 156--157
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 161--162
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--164
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 165--166
+
+ []
+
+(../tcolorbox/tcbox.blue.tex
+(/home/kevin/Documents/rust/tesxsthw1/src/test2.log))
+(../tcolorbox/tcbox.blue.tex
+(/home/kevin/Documents/rust/tesxsthw1/src/test2_1.log)
+File: ../img/zjnu.jpg Graphic file (type bmp)
+<../img/zjnu.jpg>
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.5712pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.5712pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.5712pt}.
+
+[4])
+Underfull \hbox (badness 10000) in paragraph at lines 189--190
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 191--192
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 193--194
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 195--196
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 197--198
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 199--200
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 201--202
+
+ []
+
+File: ../img/zjnu.jpg Graphic file (type bmp)
+<../img/zjnu.jpg>
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.5712pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.5712pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.5712pt}.
+
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 203--204
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 205--206
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 207--208
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 209--210
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 211--212
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 213--214
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 215--216
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 217--218
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 219--220
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 221--222
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 223--224
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 225--226
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 227--228
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 229--230
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 231--232
+
+ []
+
+(../tcolorbox/tcbox.blue.tex
+(/home/kevin/Documents/rust/tesxsthw2/src/test2.log))
+(../tcolorbox/tcbox.blue.tex
+(/home/kevin/Documents/rust/tesxsthw2/src/test2_1.log))
+File: ../img/zjnu.jpg Graphic file (type bmp)
+<../img/zjnu.jpg>
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.5712pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.5712pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.5712pt}.
+
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 266--267
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 268--269
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 270--271
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 272--273
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 274--275
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 276--277
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 278--279
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 280--281
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 282--283
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 284--285
+
+ []
+
+(../tcolorbox/tcbox.blue.tex
+(/home/kevin/Documents/rust/tesxsthw3/src/test2_1.log))
+(../tcolorbox/tcbox.blue.tex
+(/home/kevin/Documents/rust/tesxsthw3/src/test2_1.log)
+File: ../img/zjnu.jpg Graphic file (type bmp)
+<../img/zjnu.jpg>
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.5712pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.5712pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.5712pt}.
+
+[7])
+File: ../img/zjnu.jpg Graphic file (type bmp)
+<../img/zjnu.jpg>
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.5712pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.5712pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.5712pt}.
+
+[8]
+Underfull \hbox (badness 10000) in paragraph at lines 319--320
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 323--324
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 325--326
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 327--328
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 329--330
+
+ []
+
+(../tcolorbox/tcolorbox.lightgreen.tex (../code/lstlisting.rust.tex
 
 Package fontspec Info: Font family 'sarasa-term-sc-nerd-regular(1)' created
 (fontspec)             for font 'sarasa-term-sc-nerd-regular' with options
@@ -1178,7 +1615,19 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.5712pt}.
 
-[2]) (../tcolorbox/tcolorbox.moonstoneblue.tex (../code/lstlisting.bash.tex
+[9]
+File: ../img/zjnu.jpg Graphic file (type bmp)
+<../img/zjnu.jpg>
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.5712pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.5712pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.5712pt}.
+
+[10]) (../tcolorbox/tcolorbox.moonstoneblue.tex (../code/lstlisting.bash.tex
 (/nix/store/zly62l00b66l5cfv2f0r4ijzrwr7p5cb-texlive-combined-2023-texmfdist/te
 x/latex/listings/lstlang1.sty
 File: lstlang1.sty 2024/02/21 1.10 listings language file
@@ -1187,7 +1636,9 @@ File: lstlang1.sty 2024/02/21 1.10 listings language file
 x/latex/listings/lstlang1.sty
 File: lstlang1.sty 2024/02/21 1.10 listings language file
 )
-(/home/kevin/Documents/rust/tesxsthw1/src/test.sh))
+(/home/kevin/Documents/rust/tesxsthw1/src/test2.sh)))
+(../tcolorbox/tcolorbox.moonstoneblue.tex (../code/lstlisting.bash.tex
+(/home/kevin/Documents/rust/tesxsthw1/src/test2_1.sh))
 File: ../img/zjnu.jpg Graphic file (type bmp)
 <../img/zjnu.jpg>
 
@@ -1199,8 +1650,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.5712pt}.
 
-[3]) (../tcolorbox/tcbox.blue.tex
-(/home/kevin/Documents/rust/tesxsthw1/src/test.log))
+[11]
 File: ../img/zjnu.jpg Graphic file (type bmp)
 <../img/zjnu.jpg>
 
@@ -1212,7 +1662,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.5712pt}.
 
-[4]
+[12]) (../tcolorbox/tcolorbox.lightgreen.tex (../code/lstlisting.rust.tex
+(/home/kevin/Documents/rust/tesxsthw2/src/main.rs))
 File: ../img/zjnu.jpg Graphic file (type bmp)
 <../img/zjnu.jpg>
 
@@ -1224,7 +1675,120 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.5712pt}.
 
-[5] (./example.aux)
+[13]
+File: ../img/zjnu.jpg Graphic file (type bmp)
+<../img/zjnu.jpg>
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.5712pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.5712pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.5712pt}.
+
+[14]) (../tcolorbox/tcolorbox.moonstoneblue.tex (../code/lstlisting.bash.tex
+(/home/kevin/Documents/rust/tesxsthw2/src/test2.sh))
+File: ../img/zjnu.jpg Graphic file (type bmp)
+<../img/zjnu.jpg>
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.5712pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.5712pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.5712pt}.
+
+[15]) (../tcolorbox/tcolorbox.moonstoneblue.tex (../code/lstlisting.bash.tex
+(/home/kevin/Documents/rust/tesxsthw2/src/test2_1.sh))
+File: ../img/zjnu.jpg Graphic file (type bmp)
+<../img/zjnu.jpg>
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.5712pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.5712pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.5712pt}.
+
+[16]
+File: ../img/zjnu.jpg Graphic file (type bmp)
+<../img/zjnu.jpg>
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.5712pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.5712pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.5712pt}.
+
+[17]) (../tcolorbox/tcolorbox.lightgreen.tex (../code/lstlisting.rust.tex
+(/home/kevin/Documents/rust/tesxsthw3/src/main.rs))
+File: ../img/zjnu.jpg Graphic file (type bmp)
+<../img/zjnu.jpg>
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.5712pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.5712pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.5712pt}.
+
+[18]) (../tcolorbox/tcolorbox.moonstoneblue.tex (../code/lstlisting.bash.tex
+(/home/kevin/Documents/rust/tesxsthw3/src/test2.sh))
+File: ../img/zjnu.jpg Graphic file (type bmp)
+<../img/zjnu.jpg>
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.5712pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.5712pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.5712pt}.
+
+[19]) (../tcolorbox/tcolorbox.moonstoneblue.tex (../code/lstlisting.bash.tex
+(/home/kevin/Documents/rust/tesxsthw3/src/test2_1.sh))
+File: ../img/zjnu.jpg Graphic file (type bmp)
+<../img/zjnu.jpg>
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.5712pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.5712pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.5712pt}.
+
+[20]
+File: ../img/zjnu.jpg Graphic file (type bmp)
+<../img/zjnu.jpg>
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.5712pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.5712pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.5712pt}.
+
+[21])
+File: ../img/zjnu.jpg Graphic file (type bmp)
+<../img/zjnu.jpg>
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.5712pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.5712pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.5712pt}.
+
+[22] (./test1_1.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2022/08/05>
@@ -1233,14 +1797,18 @@ L3 programming layer <2022/08/05>
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
- ) 
-Here is how much of TeX's memory you used:
- 27020 strings out of 475980
- 648233 string characters out of 5768027
- 2397839 words of memory out of 5000000
- 48647 multiletter control sequences out of 15000+600000
- 559569 words of font info for 81 fonts, out of 8000000 for 9000
- 430 hyphenation exceptions out of 8191
- 96i,13n,102p,7927b,2664s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ )
+(\end occurred inside a group at level 1)
 
-Output written on example.pdf (5 pages).
+### simple group (level 1) entered at line 270 ({)
+### bottom level 
+Here is how much of TeX's memory you used:
+ 27296 strings out of 475980
+ 662287 string characters out of 5768027
+ 2571839 words of memory out of 5000000
+ 48843 multiletter control sequences out of 15000+600000
+ 563027 words of font info for 99 fonts, out of 8000000 for 9000
+ 430 hyphenation exceptions out of 8191
+ 96i,14n,102p,7927b,2727s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+Output written on test1_1.pdf (22 pages).
